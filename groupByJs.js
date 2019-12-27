@@ -1,4 +1,4 @@
-Array.prototype.groupBy(prop)
+Array.prototype.groupBy = function(prop)
 {
   var value = this.reduce(function(accumulator, currentValue){
      var key = currentValue[prop];
